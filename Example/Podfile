@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDKClaro_Example' do
+  pod 'SDKClaro', :path => '../'
+
+  target 'SDKClaro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
