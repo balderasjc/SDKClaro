@@ -1,0 +1,6 @@
+framework module Pods_SDKClaro_Tests {
+  umbrella header "Pods-SDKClaro_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

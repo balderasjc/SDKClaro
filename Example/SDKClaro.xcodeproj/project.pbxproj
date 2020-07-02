@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18026AFA70ADFDBA6F45A5F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		18026AFA70ADFDBA6F45A5F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		24821E753566CC47B11F55CA /* Pods-SDKClaro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKClaro_Example.release.xcconfig"; path = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SDKClaro_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKClaro_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,9 +40,9 @@
 		607FACE51AFB9204008FA782 /* SDKClaro_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKClaro_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B2147844F24749776B9E5FA /* SDKClaro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDKClaro.podspec; path = ../SDKClaro.podspec; sourceTree = "<group>"; };
+		6B2147844F24749776B9E5FA /* SDKClaro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDKClaro.podspec; path = ../SDKClaro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF1778EDD9F99A3E407C40F /* Pods-SDKClaro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKClaro_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C0D5E77A122638C7EC6527D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0D5E77A122638C7EC6527D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0E3BCE484135E2CDDFA7964 /* Pods_SDKClaro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKClaro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E260C4F23C98E15200D9357A /* Pods-SDKClaro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKClaro_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E8DA0A69B89CE2719AB788 /* Pods_SDKClaro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKClaro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				E260C4F23C98E15200D9357A /* Pods-SDKClaro_Tests.debug.xcconfig */,
 				9FF1778EDD9F99A3E407C40F /* Pods-SDKClaro_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

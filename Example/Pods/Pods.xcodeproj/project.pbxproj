@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB39466CB3467C9EDB16EB4AF6424A2 /* Pods-SDKClaro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3611D1DA2040D88BAF554424AE4865B0 /* Pods-SDKClaro_Example-dummy.m */; };
+		344F32328F7B9198BA5BE70A487798F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3660AD8177DEC5A6109453C3C3154E71 /* SDKClaro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7F1DB13DB674F535AAABFC33AD3154 /* SDKClaro-dummy.m */; };
+		552884E9CFFEE428564BB53FE1768E25 /* Pods-SDKClaro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D10E2A6F304A08DE409B853EF5704CE /* Pods-SDKClaro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0623E75093D59401FC04B2600C0B5C /* SDKClaro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 978282D2F6FBF92F091CFDF1DA17E7F2 /* SDKClaro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6EA6A1D1AAC3079FA82BA8969F1416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F73FE318D9A60C2FAA5D34E25B52F41 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A195EABDB7D3A39169D1E29C552A1A4 /* SwiftyLib.swift */; };
+		71572B9E05E60DADD3EA4B9E5A271365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B074D38EA927242D216CD814C21AEF3 /* Pods-SDKClaro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F1ED58A0D92A6A6482F9B8FA61988E /* Pods-SDKClaro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25437CC919F4199CA13AA3E8217362D /* Pods-SDKClaro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B134C8344F577A0FEF6CF190E78E32BC /* Pods-SDKClaro_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A108B78B53AF5D88FE897795D4BA7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C7F97696699325FD674D6727788463;
+			remoteInfo = SDKClaro;
+		};
+		3E776F55AE32CBC20D02A3CA09EFFA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB73757C48FF989D3B446C0086EFD451;
+			remoteInfo = "Pods-SDKClaro_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001CA3A925F9A13E373B0A31C98E5623 /* Pods-SDKClaro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKClaro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0112DC30629ADD8EDD09706326F5A218 /* Pods-SDKClaro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKClaro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AE138CC4052C14CFCAB59EA6C9A60F5 /* Pods-SDKClaro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKClaro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2443D57EEEF983DE4A7F946D4FC17EBE /* Pods-SDKClaro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKClaro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0CFDCE5C761E7BF9117DE77E956846 /* Pods-SDKClaro_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKClaro_Example-Info.plist"; sourceTree = "<group>"; };
+		2ECDD4721FFB4060DAB96F424E4B1AB7 /* SDKClaro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKClaro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3611D1DA2040D88BAF554424AE4865B0 /* Pods-SDKClaro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKClaro_Example-dummy.m"; sourceTree = "<group>"; };
+		3D10E2A6F304A08DE409B853EF5704CE /* Pods-SDKClaro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKClaro_Example-umbrella.h"; sourceTree = "<group>"; };
+		3D89499155857161B72E348246B88BC2 /* Pods-SDKClaro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKClaro_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59F1ED58A0D92A6A6482F9B8FA61988E /* Pods-SDKClaro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKClaro_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5A54E78D87B57AFB617DEC08713004DA /* SDKClaro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKClaro.modulemap; sourceTree = "<group>"; };
+		60AC5E7EFE639B6ADF825E513B6067A5 /* Pods-SDKClaro_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKClaro_Tests-Info.plist"; sourceTree = "<group>"; };
+		7CAD9ED679114A66465B723AACAE664B /* Pods-SDKClaro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKClaro_Example.modulemap"; sourceTree = "<group>"; };
+		7D426770FC1C760F64AFAB27CEFB86E7 /* Pods-SDKClaro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKClaro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A195EABDB7D3A39169D1E29C552A1A4 /* SwiftyLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyLib.swift; path = SDKClaro/Classes/SwiftyLib.swift; sourceTree = "<group>"; };
+		978282D2F6FBF92F091CFDF1DA17E7F2 /* SDKClaro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKClaro-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7F1DB13DB674F535AAABFC33AD3154 /* SDKClaro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKClaro-dummy.m"; sourceTree = "<group>"; };
+		A1AE7754B923394253E77497D397B749 /* SDKClaro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKClaro-prefix.pch"; sourceTree = "<group>"; };
+		AAD5CE1F2633FD215DFEE29F353089F7 /* SDKClaro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKClaro.debug.xcconfig; sourceTree = "<group>"; };
+		AC8082CAFB7FA713902831B0069D0C4E /* SDKClaro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKClaro.release.xcconfig; sourceTree = "<group>"; };
+		B134C8344F577A0FEF6CF190E78E32BC /* Pods-SDKClaro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKClaro_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCCB18040373FCE78A5C33922CF09FC4 /* Pods_SDKClaro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKClaro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8803E3062911CF3A7B8A2FBDAB479BC /* SDKClaro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDKClaro-Info.plist"; sourceTree = "<group>"; };
+		CC1DDF086FD5E301A695175C9C942EA7 /* Pods-SDKClaro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKClaro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCC943C33FEB08DE18D19555CCEDBBA6 /* Pods_SDKClaro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKClaro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6137A74F7ED94EF8463B378C4E82DF /* Pods-SDKClaro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKClaro_Tests.modulemap"; sourceTree = "<group>"; };
+		D8073D4606142072A5BC1155E4F3D045 /* SDKClaro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDKClaro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4E44E06931EDE8BCBE5618875E7F8D0 /* Pods-SDKClaro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKClaro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA177602E8FEA2DD2574F3D101C00FF2 /* Pods-SDKClaro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDKClaro_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE7D7A077FE7AEDACF5FACFD025C0B38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE467A1665B282DF302A4EED7DD2359A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B3A4677429D3B7B7BBCD03BF03ADC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6EA6A1D1AAC3079FA82BA8969F1416 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C25828BE40DDC9CE0B2267B92634091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344F32328F7B9198BA5BE70A487798F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E5A0CFF377B422C6C8BE443C3FD342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71572B9E05E60DADD3EA4B9E5A271365 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2340E71242FA202074C498CD928F1622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC943C33FEB08DE18D19555CCEDBBA6 /* Pods_SDKClaro_Example.framework */,
+				BCCB18040373FCE78A5C33922CF09FC4 /* Pods_SDKClaro_Tests.framework */,
+				2ECDD4721FFB4060DAB96F424E4B1AB7 /* SDKClaro.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E657D257CA209B65B9BCC4403E3B195 /* Pods-SDKClaro_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD9ED679114A66465B723AACAE664B /* Pods-SDKClaro_Example.modulemap */,
+				0AE138CC4052C14CFCAB59EA6C9A60F5 /* Pods-SDKClaro_Example-acknowledgements.markdown */,
+				001CA3A925F9A13E373B0A31C98E5623 /* Pods-SDKClaro_Example-acknowledgements.plist */,
+				3611D1DA2040D88BAF554424AE4865B0 /* Pods-SDKClaro_Example-dummy.m */,
+				EA177602E8FEA2DD2574F3D101C00FF2 /* Pods-SDKClaro_Example-frameworks.sh */,
+				2C0CFDCE5C761E7BF9117DE77E956846 /* Pods-SDKClaro_Example-Info.plist */,
+				3D10E2A6F304A08DE409B853EF5704CE /* Pods-SDKClaro_Example-umbrella.h */,
+				3D89499155857161B72E348246B88BC2 /* Pods-SDKClaro_Example.debug.xcconfig */,
+				7D426770FC1C760F64AFAB27CEFB86E7 /* Pods-SDKClaro_Example.release.xcconfig */,
+			);
+			name = "Pods-SDKClaro_Example";
+			path = "Target Support Files/Pods-SDKClaro_Example";
+			sourceTree = "<group>";
+		};
+		430155F745ABEA2A1136C08DC5C119D9 /* SDKClaro */ = {
+			isa = PBXGroup;
+			children = (
+				8A195EABDB7D3A39169D1E29C552A1A4 /* SwiftyLib.swift */,
+				A957B97018F09FA033BF3AFD16FA2A4A /* Pod */,
+				BA2B85916805D1335A7BE0A935E39F5C /* Support Files */,
+			);
+			name = SDKClaro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4DC8F281FCC2BF091C4E00C0CC2A97B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E657D257CA209B65B9BCC4403E3B195 /* Pods-SDKClaro_Example */,
+				E4B2FD3BDF1108717A58A5132A629964 /* Pods-SDKClaro_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A957B97018F09FA033BF3AFD16FA2A4A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE7D7A077FE7AEDACF5FACFD025C0B38 /* LICENSE */,
+				FE467A1665B282DF302A4EED7DD2359A /* README.md */,
+				D8073D4606142072A5BC1155E4F3D045 /* SDKClaro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA2B85916805D1335A7BE0A935E39F5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E78D87B57AFB617DEC08713004DA /* SDKClaro.modulemap */,
+				9E7F1DB13DB674F535AAABFC33AD3154 /* SDKClaro-dummy.m */,
+				C8803E3062911CF3A7B8A2FBDAB479BC /* SDKClaro-Info.plist */,
+				A1AE7754B923394253E77497D397B749 /* SDKClaro-prefix.pch */,
+				978282D2F6FBF92F091CFDF1DA17E7F2 /* SDKClaro-umbrella.h */,
+				AAD5CE1F2633FD215DFEE29F353089F7 /* SDKClaro.debug.xcconfig */,
+				AC8082CAFB7FA713902831B0069D0C4E /* SDKClaro.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDKClaro";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F601DF87D34579685AAB443C64F6B4C7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2340E71242FA202074C498CD928F1622 /* Products */,
+				4DC8F281FCC2BF091C4E00C0CC2A97B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B2FD3BDF1108717A58A5132A629964 /* Pods-SDKClaro_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6137A74F7ED94EF8463B378C4E82DF /* Pods-SDKClaro_Tests.modulemap */,
+				E4E44E06931EDE8BCBE5618875E7F8D0 /* Pods-SDKClaro_Tests-acknowledgements.markdown */,
+				0112DC30629ADD8EDD09706326F5A218 /* Pods-SDKClaro_Tests-acknowledgements.plist */,
+				B134C8344F577A0FEF6CF190E78E32BC /* Pods-SDKClaro_Tests-dummy.m */,
+				60AC5E7EFE639B6ADF825E513B6067A5 /* Pods-SDKClaro_Tests-Info.plist */,
+				59F1ED58A0D92A6A6482F9B8FA61988E /* Pods-SDKClaro_Tests-umbrella.h */,
+				2443D57EEEF983DE4A7F946D4FC17EBE /* Pods-SDKClaro_Tests.debug.xcconfig */,
+				CC1DDF086FD5E301A695175C9C942EA7 /* Pods-SDKClaro_Tests.release.xcconfig */,
+			);
+			name = "Pods-SDKClaro_Tests";
+			path = "Target Support Files/Pods-SDKClaro_Tests";
+			sourceTree = "<group>";
+		};
+		F601DF87D34579685AAB443C64F6B4C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430155F745ABEA2A1136C08DC5C119D9 /* SDKClaro */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EA1E1F08867CA96B6E1951F18C172CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0623E75093D59401FC04B2600C0B5C /* SDKClaro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594DB0D69AF5B4D33B4510AC0E0E3B46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B074D38EA927242D216CD814C21AEF3 /* Pods-SDKClaro_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D51A886190A91A4D9112BDC1AB3BF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552884E9CFFEE428564BB53FE1768E25 /* Pods-SDKClaro_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B813EC8000693ECC3410F4FA527B3885 /* Pods-SDKClaro_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573DB929F1BA369EA457FC003A43FEEF /* Build configuration list for PBXNativeTarget "Pods-SDKClaro_Tests" */;
+			buildPhases = (
+				594DB0D69AF5B4D33B4510AC0E0E3B46 /* Headers */,
+				47625BED4472B6B0679CB1D05F934A7A /* Sources */,
+				B5E5A0CFF377B422C6C8BE443C3FD342 /* Frameworks */,
+				968E4281F08F3C03929D65555B7920E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A892CB8E9357D71921AAD19D7394D851 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKClaro_Tests";
+			productName = "Pods-SDKClaro_Tests";
+			productReference = BCCB18040373FCE78A5C33922CF09FC4 /* Pods_SDKClaro_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6C7F97696699325FD674D6727788463 /* SDKClaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8BFB4CB7BDA17DD39F6949AB95A1BE /* Build configuration list for PBXNativeTarget "SDKClaro" */;
+			buildPhases = (
+				1EA1E1F08867CA96B6E1951F18C172CD /* Headers */,
+				EA94E36474099CE723D3EDC722698B4A /* Sources */,
+				5B3A4677429D3B7B7BBCD03BF03ADC07 /* Frameworks */,
+				FB10F75A66FBEB5E4A1FFCE74D36F5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKClaro;
+			productName = SDKClaro;
+			productReference = 2ECDD4721FFB4060DAB96F424E4B1AB7 /* SDKClaro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB73757C48FF989D3B446C0086EFD451 /* Pods-SDKClaro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9398AE53B48D66895815F6CC7CAD737 /* Build configuration list for PBXNativeTarget "Pods-SDKClaro_Example" */;
+			buildPhases = (
+				D6D51A886190A91A4D9112BDC1AB3BF2 /* Headers */,
+				8FF4B2152F163497AA0D4ABBD26A2E04 /* Sources */,
+				7C25828BE40DDC9CE0B2267B92634091 /* Frameworks */,
+				A90E4BE5FAE05A2BD5300CA6E5D06A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2D6B21F2514540D6B99F66230DD533 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKClaro_Example";
+			productName = "Pods-SDKClaro_Example";
+			productReference = CCC943C33FEB08DE18D19555CCEDBBA6 /* Pods_SDKClaro_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2340E71242FA202074C498CD928F1622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB73757C48FF989D3B446C0086EFD451 /* Pods-SDKClaro_Example */,
+				B813EC8000693ECC3410F4FA527B3885 /* Pods-SDKClaro_Tests */,
+				C6C7F97696699325FD674D6727788463 /* SDKClaro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968E4281F08F3C03929D65555B7920E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90E4BE5FAE05A2BD5300CA6E5D06A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB10F75A66FBEB5E4A1FFCE74D36F5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47625BED4472B6B0679CB1D05F934A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25437CC919F4199CA13AA3E8217362D /* Pods-SDKClaro_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF4B2152F163497AA0D4ABBD26A2E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB39466CB3467C9EDB16EB4AF6424A2 /* Pods-SDKClaro_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA94E36474099CE723D3EDC722698B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F73FE318D9A60C2FAA5D34E25B52F41 /* SwiftyLib.swift in Sources */,
+				3660AD8177DEC5A6109453C3C3154E71 /* SDKClaro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E2D6B21F2514540D6B99F66230DD533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKClaro;
+			target = C6C7F97696699325FD674D6727788463 /* SDKClaro */;
+			targetProxy = 28A108B78B53AF5D88FE897795D4BA7F /* PBXContainerItemProxy */;
+		};
+		A892CB8E9357D71921AAD19D7394D851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SDKClaro_Example";
+			target = EB73757C48FF989D3B446C0086EFD451 /* Pods-SDKClaro_Example */;
+			targetProxy = 3E776F55AE32CBC20D02A3CA09EFFA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F925B1E2D798452441CF85196CFFEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D426770FC1C760F64AFAB27CEFB86E7 /* Pods-SDKClaro_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E5CF3147AA21133C2A7693D220E6F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1DDF086FD5E301A695175C9C942EA7 /* Pods-SDKClaro_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		911C9FB942E882D3260C7E7205738932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D89499155857161B72E348246B88BC2 /* Pods-SDKClaro_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B18162771DD312E66E3B397E6FA94D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD5CE1F2633FD215DFEE29F353089F7 /* SDKClaro.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKClaro/SDKClaro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDKClaro/SDKClaro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDKClaro/SDKClaro.modulemap";
+				PRODUCT_MODULE_NAME = SDKClaro;
+				PRODUCT_NAME = SDKClaro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B77A16A8F21E466D70CE5C33E85858A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8082CAFB7FA713902831B0069D0C4E /* SDKClaro.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKClaro/SDKClaro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDKClaro/SDKClaro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDKClaro/SDKClaro.modulemap";
+				PRODUCT_MODULE_NAME = SDKClaro;
+				PRODUCT_NAME = SDKClaro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C72F193FD4E2165A51E7639484949EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2443D57EEEF983DE4A7F946D4FC17EBE /* Pods-SDKClaro_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDKClaro_Tests/Pods-SDKClaro_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573DB929F1BA369EA457FC003A43FEEF /* Build configuration list for PBXNativeTarget "Pods-SDKClaro_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72F193FD4E2165A51E7639484949EE1 /* Debug */,
+				6E5CF3147AA21133C2A7693D220E6F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8BFB4CB7BDA17DD39F6949AB95A1BE /* Build configuration list for PBXNativeTarget "SDKClaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18162771DD312E66E3B397E6FA94D94 /* Debug */,
+				B77A16A8F21E466D70CE5C33E85858A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9398AE53B48D66895815F6CC7CAD737 /* Build configuration list for PBXNativeTarget "Pods-SDKClaro_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911C9FB942E882D3260C7E7205738932 /* Debug */,
+				5F925B1E2D798452441CF85196CFFEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

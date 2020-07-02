@@ -1,0 +1,22 @@
+{
+  "name": "SDKClaro",
+  "version": "0.1.0",
+  "summary": "A short description of SDKClaro.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Juan Carlos Balderas/SDKClaro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Juan Carlos Balderas": "balderasjc@globalhitss.com"
+  },
+  "source": {
+    "git": "https://github.com/Juan Carlos Balderas/SDKClaro.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDKClaro/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SDKClaro (0.1.0)
+
+DEPENDENCIES:
+  - SDKClaro (from `../`)
+
+EXTERNAL SOURCES:
+  SDKClaro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDKClaro: 85910df1ca3f70036c71e60439d45dd60796923d
+
+PODFILE CHECKSUM: f15361cec697c3817995d07b4fbf79d13b1cd1eb
+
+COCOAPODS: 1.9.3
