@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575CEA8D24AE706E0015D38B /* SDKClaro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575CEA8C24AE706E0015D38B /* SDKClaro.framework */; };
+		575CEA8E24AE706E0015D38B /* SDKClaro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 575CEA8C24AE706E0015D38B /* SDKClaro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -27,9 +29,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		575CEA8F24AE706E0015D38B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				575CEA8E24AE706E0015D38B /* SDKClaro.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		18026AFA70ADFDBA6F45A5F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		24821E753566CC47B11F55CA /* Pods-SDKClaro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKClaro_Example.release.xcconfig"; path = "Target Support Files/Pods-SDKClaro_Example/Pods-SDKClaro_Example.release.xcconfig"; sourceTree = "<group>"; };
+		575CEA8C24AE706E0015D38B /* SDKClaro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDKClaro.framework; path = ../SDKClaro.framework; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SDKClaro_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKClaro_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F4A413242B16289383258D6 /* Pods_SDKClaro_Example.framework in Frameworks */,
+				575CEA8D24AE706E0015D38B /* SDKClaro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +171,7 @@
 		F93BAB86ABFEAC0E7FA0011B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				575CEA8C24AE706E0015D38B /* SDKClaro.framework */,
 				E0E3BCE484135E2CDDFA7964 /* Pods_SDKClaro_Example.framework */,
 				E9E8DA0A69B89CE2719AB788 /* Pods_SDKClaro_Tests.framework */,
 			);
@@ -171,6 +190,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				DCC93900F1EB15B81327EE64 /* [CP] Embed Pods Frameworks */,
+				575CEA8F24AE706E0015D38B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

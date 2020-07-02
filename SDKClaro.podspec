@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = "This pod library is for use with claro pay iOS apps"
 
-  s.homepage         = 'https://github.com/Juan Carlos Balderas/SDKClaro'
+  s.homepage         = 'https://github.com/balderasjc'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Juan Carlos Balderas' => 'balderasjc@globalhitss.com' }
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SDKClaro/Classes/**/*'
+  s.swift_versions = 4.0
   
   # s.resource_bundles = {
   #   'SDKClaro' => ['SDKClaro/Assets/*.png']
