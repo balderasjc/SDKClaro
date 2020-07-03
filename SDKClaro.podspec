@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks   = "SDKClaro.framework"
   s.platform              = :ios
   #s.swift_version         = "4.2"
-  #s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '12.0'
 
   #s.source       = { :git => "$HOME/MyFrameworkDistribution.git", :tag => "#{s.version}" }
   #s.public_header_files = "MyFramework.framework/Headers/*.h"
