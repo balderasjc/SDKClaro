@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDKClaro'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SDKClaro.'
 
 # This description is used to generate tags and improve search results.
@@ -25,11 +25,25 @@ Pod::Spec.new do |s|
   s.author           = { 'Juan Carlos Balderas' => 'balderasjc@globalhitss.com' }
   s.source           = { :git => 'https://github.com/balderasjc/SDKClaro.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SDKClaro/Classes/**/*'
+  #s.ios.deployment_target = '8.0'
+  #s.source_files = 'SDKClaro/Classes/**/*'
   s.swift_versions = '4.0'
+
+ # s.source                = { :git => "$HOME/MyFrameworkDistribution.git", :tag => "#{s.version}" }
+  s.public_header_files   = "SDKClaro.framework/Headers/*.h"
+  s.source_files          = "SDKClaro.framework/Headers/*.h"
+  s.vendored_frameworks   = "SDKClaro.framework"
+  s.platform              = :ios
+  #s.swift_version         = "4.2"
+  #s.ios.deployment_target = '12.0'
+
+  #s.source       = { :git => "$HOME/MyFrameworkDistribution.git", :tag => "#{s.version}" }
+  #s.public_header_files = "MyFramework.framework/Headers/*.h"
+  #s.source_files = "MyFramework.framework/Headers/*.h"
+  #s.vendored_frameworks = "MyFramework.framework"
+  #s.platform = :ios
+  #s.swift_version = "4.2"
+  #s.ios.deployment_target  = '12.0'
   
   # s.resource_bundles = {
   #   'SDKClaro' => ['SDKClaro/Assets/*.png']
